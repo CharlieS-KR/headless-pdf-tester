@@ -1,0 +1,22 @@
+{
+  "name": "headless-pdf-tester",
+  "version": "1.0.0",
+  "description": "A test of creating PDFs out of HTML pages with the Chrome headless browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SparksFullStack/headless-pdf-tester.git"
+  },
+  "author": "Charlie Sparks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SparksFullStack/headless-pdf-tester/issues"
+  },
+  "homepage": "https://github.com/SparksFullStack/headless-pdf-tester#readme",
+  "dependencies": {
+    "puppeteer": "^1.17.0"
+  }
+}

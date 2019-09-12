@@ -23,15 +23,10 @@ server.post('/generate-pdf/more-details', (req, res) => {
         .catch((err) => console.log("--generate-pdf/more-details: There was an error generating the PDF", err));
 });
 
-server.get('/test-iteration', (req, res) => {
+server.get('/test-console', (req, res) => {
     consoleTest()
         .then(() => res.send('made it'))
-        .catch(err => console.log('error in testing'));
+        .catch(err => console.log('error in testing', err));
 });
 
 server.listen(port, () => console.log(`The server is listening on port ${port}`));
-server.listen()
-
-// TODO check onConsoleMessage
-// TODO see about refactoring with a promise chain
-// Check on how to get console messages backws
